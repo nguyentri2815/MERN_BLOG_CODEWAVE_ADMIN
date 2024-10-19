@@ -92,7 +92,7 @@ const WriterPost = () => {
           <Select
             label="Category"
             placeholder="Category"
-            data={["React", "Angular", "Vue", "Svelte"]}
+            data={["NEWS", "CODING"]}
             key={form.key('category')}
             {...form.getInputProps('category')}
           />
